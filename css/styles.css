@@ -212,6 +212,25 @@ img {
   height: 120px;
   background-color: #f5f4fa;
   margin-bottom: 30px;
+
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.feature-item:nth-child(1)::before {
+  background-image: url(../images/antenna\ 1.svg);
+}
+
+.feature-item:nth-child(2)::before {
+  background-image: url('../images/clock\ 1.svg');
+}
+
+.feature-item:nth-child(3)::before {
+  background-image: url('../images/diagram\ 1.svg');
+}
+
+.feature-item:nth-child(4)::before {
+  background-image: url('../images/astronaut\ 1.svg');
 }
 
 .feature-item:last-child {
