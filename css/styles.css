@@ -402,7 +402,7 @@ img {
 
 /*footer*/
 .footer {
-  padding-bottom: 60px;
+  padding: 60px 0;
   background-color: var(--section-color);
 }
 
@@ -411,7 +411,6 @@ img {
 }
 
 .logo-footer {
-  padding-top: 60px;
   display: inline-block;
   margin-bottom: 20px;
   color: var(--white-color);
@@ -461,7 +460,7 @@ img {
 }
 
 .footer-section-subscribe {
-  padding-top: 72px;
+  padding-top: 12px;
 }
 
 .subscribe-title {
